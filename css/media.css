@@ -1,0 +1,1100 @@
+@media(min-width:768px) and (max-width:991px){
+    #slide_part .logo img{
+        margin-top: -90px;
+        margin-left: 100px;
+    }
+    .carousel-indicators #myCarousel{
+        width: 20px;
+    }
+    #slide_part{
+       position: relative;
+    }
+    .carousel-indicators{
+        text-align: center;
+        margin-left: -135px;
+    }
+    #slide_part .carousel-indicators li{
+        height: 7px;
+        width: 68px;
+        border-radius: 10px;
+    }
+    .carousel-indicators li {
+        background: #817e87;
+        border: #817e87;
+    }
+    .carousel-indicators .active{
+        background: #753d9d;
+        border: #753d9d;
+    }
+    /* Important styles */
+    #toggle {
+          display: block;
+          width: 28px;
+          height: 30px;
+          margin: 30px auto 10px;
+          margin-left: 600px;
+        
+    }
+
+    #toggle span:after,
+    #toggle span:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: -9px;
+    }
+    #toggle span:after{
+          top: 9px;
+    }
+    #toggle span {
+          position: relative;
+          display: block;
+    }
+
+    #toggle span,
+    #toggle span:after,
+    #toggle span:before {
+          width: 100%;
+          height: 5px;
+          background-color: #888;
+          transition: all 0.3s;
+          backface-visibility: hidden;
+          border-radius: 2px;
+    }
+    #toggle.on span {
+          background-color: transparent;
+    }  
+    #toggle.on span:before {
+          transform: rotate(45deg) translate(5px, 5px);
+    }
+    #toggle.on span:after {
+          transform: rotate(-45deg) translate(7px, -8px);
+    }
+    #toggle.on + #menu {
+          opacity: 1;
+          visibility: visible;
+
+    }
+    .menu_bar #menu {
+          margin-top: -500px;
+          color: #999;
+          margin: auto;
+          text-align: center;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity .4s;
+    }
+    ul, li, li a {
+        margin-left: 250px;
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    li a {
+        padding: 5px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .2s;
+    }
+    li a:hover,
+    li a:focus {
+        color: #753d9d;
+    }
+    .menu_bar{
+        position: absolute;
+        margin-top: -300px;
+    }
+    #slide_part .logo img{
+        margin-top: -577px;
+        margin-left: 0px;
+    }
+    .carousel-indicators{
+        margin-left: -85px;
+    }
+    #slide_part .carousel-indicators li{
+        height: 6px;
+        width: 48px;
+    }
+    .menu_bar #menu {
+          margin-top: -100px;
+          color: #999;
+          margin: auto;
+          text-align: center;
+          opacity: 0;
+          visibility: hidden;
+    }
+    #menu ul{
+          margin-left: 100px;
+          margin-top: -50px;
+    }
+    .menu_bar #menu ul li{
+          float: left;
+    }
+    .text h1{
+        margin-top: 200px;
+        font-size: 25px;
+        padding-bottom: 23px;
+    }
+    .text h1 span{
+        font-size: 25px;
+        font-family: montserrat_bold;
+        color: #753d9d;
+        text-align: center;
+    }
+    .container .text p{
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+    .text a{
+        font-size: 9px;
+        padding: 15px 35px 15px 35px;
+        border-radius: 10px;
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+    .text a:hover{
+        background: #753d9d;
+        color: #fff;
+        border: 2px solid #753d9d;
+        transition: all linear .4s;
+    }
+    .container .logo img{
+        margin-top: 30px;
+        height: 30px;
+        width: 100px;
+    }
+/*------------------------Medium device menu part ends--------------------------*/
+	#welcome{
+        height: 350px;
+        text-align: left;
+        border-bottom: none;
+    }
+    #welcome .bloom h2{
+        color: #0d113d;
+        font-size: 26px;
+        padding-top: 10px;
+    }
+    #welcome .bloom h2:before{
+        height: 65px;
+        width: 5px;
+        margin-left: -20px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+    #welcome .bloom span{
+        font-size: 26px;
+    }
+    #welcome .bloom h3{
+        font-size: 16px;
+    }
+    #welcome .bloom p{
+        font-size: 13px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #welcome .bloom a{
+        padding: 16px 36px 12px 36px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    #welcome img{
+        padding-top: 50px;
+    }
+    /*------------------------welcome part ends-------------------------------*/
+    #three_steps img{
+        padding-bottom: 28px;
+        padding-top: 20px;
+        position: relative;
+    }
+    #three_steps h3{
+        font-size: 21px;
+        margin-top: -75px;
+        margin-left: 85px;
+    }
+    #three_steps p{
+        font-family: montserrat_regular;
+        font-weight: 300px;
+        color: #0d113d;
+        padding-bottom: 69px;
+    }
+/*------------------------three steps part ends-------------------------------*/
+    #digital_products h2{
+        font-size: 40px;
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    #digital_products a{
+        padding: 20px 55px;
+        font-size: 15px;
+    }
+/*------------------------digital_products part ends-------------------------------*/
+    #service_part p{
+        font-family: montserrat_regular;
+        color: #0d113d;
+        font-size: 20px;
+    }
+    #service_part .picture:hover .overly{
+        background: #0d113d;
+        top: 0px;
+        width: 83%;
+        height: 100%;
+    }
+    #service_part .picture_big:hover .overly{
+        background: #0d113d;
+        top: 0px;
+        width: 93%;
+        height: 100%;
+    }
+    #service_part h4{
+        left: 20px;
+        font-size: 13px;
+    }
+    #service_part h5{
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+    #service_part h5:after{
+        width: 102px;
+        margin-left: -100px;
+    }
+/*------------------------service part ends-------------------------------*/
+    #support_system img{
+        margin-left: 50px;
+        padding-top: 52px;
+    }
+    #support_system .system_text h2{
+        font-size: 25px;
+        padding: 49px 0px 15px;
+    }
+    #support_system .system_text p{
+        font-size: 13px;
+        padding-bottom: 33px;
+    }
+    #support_system .system_text ul li i{
+        color: #616161;
+        margin-left: -25px;
+    }
+    #support_system .system_text ul li span{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    #support_system .system_text ul li{
+        padding: 7px 0px;
+    }
+/*------------------------support_system part ends-------------------------------*/
+    #dream_project .contact_text h2{
+        font-size: 20px;
+        line-height: 100px;
+    }
+    #dream_project a{
+        font-size: 13px;
+        margin-top: 60px;
+        line-height: 100px;
+        padding: 18px 50px 18px 50px;
+    }
+/*------------------------dream_project part ends-------------------------------*/
+    .portfolio_text h3{
+        padding: 78px 0 56px;
+        font-size: 26px;
+        position: relative;
+        margin-left: -15px;
+    }
+    .portfolio_text h3:before{
+        content: '';
+        width: 5px;
+        height: 37px;
+        background: #753d9d;
+        position: absolute;
+        margin-left: -15px;
+        border-radius: 10px;
+    }
+/*------------------------portfolio_text part ends-------------------------------*/
+    #portfolio_part{
+        padding: 20px 0px;
+        position: relative;
+    }
+    #portfolio .slick-prev{
+        background: url(../images/rightdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 600px;
+    }
+    #portfolio .slick-next{
+        background: url(../images/leftdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -260px;
+        margin-left: 560px;
+    }
+/*------------------------portfolio part ends-------------------------------*/
+    #blog h3{
+        padding: 59px 0px 56px;
+    }
+    #blog ul  li{
+        font-size: 12px;
+    }
+    #blog .date li a{
+        margin-top: -15px;
+        font-size: 8px;
+    }
+    #blog .blog_name li a{
+        font-size: 10px;
+        text-transform: lowercase;
+        margin-top: -10px;
+    }
+    #blog .blog_name li a span{
+        color: #0d113d;
+        font-size: 10px;
+        text-transform: lowercase;
+    }
+    #blog .container .row .border_last{
+        width: 730px;
+    }
+    #blog .container .row .border_last2{
+        width: 730px;
+    }
+    #blog .container .row .border_last3{
+        width: 730px;
+    }
+/*------------------------blog part ends-------------------------------*/
+    #register h3{
+        font-size: 15px;
+        padding-top: 31px;
+        text-align: center;
+    }
+    #register p{
+        font-size: 12px;
+        padding-bottom: 38px;
+        text-align: center;
+    }
+    #register .mail{
+        height: 43px;
+        width: 280px;
+        font-size: 15px;
+        margin-top: 30px;
+        padding-left: 12px;
+    }
+    #register .button_subscribe{
+        font-size: 12px;
+        margin-left: 0px;
+        border-radius: 10px;
+        padding: 10px 35px;
+    }
+/*------------------------register part ends-------------------------------*/
+    #footer img{
+        padding: 43px 0px 20px;
+    }
+    #footer p{
+        font-size: 12px;
+        padding-bottom: 54px;
+    }
+    #footer  ul{
+        margin-top: 100px;
+        position: relative;
+    }
+    #footer ul li{
+        padding-bottom: 15px;
+    }
+    #footer ul li a{
+        font-size: 10px;
+    }
+    #footer .right{
+        margin-left: 100px;
+        margin-top: -170px;
+    }
+    #footer .row{
+        border-bottom: 1px solid #1e224d;
+    }
+    #footer .border{
+        margin-top: -188px;
+        margin-left: 500px;
+    }
+    #footer .border2{
+        margin-top: 85px;
+        margin-left: 115px;
+    }
+/*------------------------footer part ends-------------------------------*/
+    #copyright h5{
+        font-size: 10px;
+        line-height: 90px;
+    }
+    #copyright .fan_page ul{
+        float: left;
+    }
+    #copyright .fan_page ul li{
+        float: left; 
+    }
+    #copyright .fan_page ul li i{
+        color: #fff;
+        font-size: 10px;
+        line-height: 90px;
+    }
+/*------------------------copyright part ends-------------------------------*/
+/*---------------------------------------About us part Start----------------------------------------------*/
+    #bloom .Interactive h3{
+        margin-top: 52px;
+        font-size: 15px;
+    }
+    #bloom .bloom_text h2{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #bloom .bloom_text p{
+        font-size: 12px;
+        font-family: montserrat_light;
+        color: #0d113d;
+        padding-top: 25px;
+    }
+    #bloom .award{
+        border-radius: 10px;
+        margin-top: 28px;
+        height: 260px;
+        width: 223px;
+    }
+    #bloom .award img{
+        padding-top: 39px;
+    }
+    #bloom .award h3{
+        font-size: 17px;
+    }
+    #bloom .line{
+        width: 720px;
+        margin-top: 824px;
+    }
+/*------------------------bloom part ends--------------------------*/
+   .team_man h3{
+        font-size: 26px;
+        text-transform: uppercase;
+        padding-bottom: 100px;
+    }
+    .team_man h3:before{
+        content: '';
+        position: absolute;
+        margin-left: -10px;
+    }
+    #team_about_us{
+        position: relative;
+    }
+    #team_about_us .slick-prev{
+        background: url(../images/rightdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 700px;
+    }
+    #team_about_us .slick-next{
+        background: url(../images/leftdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -583px;
+        margin-left: 671px;
+    }
+    #team_about_us h4{
+        padding: 30px 0px 14px;
+        text-align: center;
+        font-size: 18px;
+    }
+    #team_about_us p{
+        text-align: center;
+        font-size: 14px;
+        color: #753d9d;
+        padding-bottom: 90px;
+    }
+/*------------------------team_about-us part ends--------------------------*/
+   #join_team_text p{
+        font-size: 15px;
+        padding: 70px 0px 70px;
+    }
+/*------------------------join_team_text about-us part ends--------------------------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:320px) and (max-width:767px){
+    #slide_part .logo img{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .carousel-indicators #myCarousel{
+        width: 20px;
+    }
+    .carousel-indicators{
+        text-align: center;
+        margin-left: -0px;
+    }
+    #slide_part .carousel-indicators li{
+        height: 7px;
+        width: 10px;
+        border-radius: 10px;
+    }
+    .carousel-indicators li {
+        background: #817e87;
+        border: #817e87;
+    }
+    .carousel-indicators .active{
+        background: #753d9d;
+        border: #753d9d;
+    }
+    /* Important styles */
+    #toggle {
+          display: block;
+          width: 28px;
+          height: 30px;
+          margin: 30px auto 1px -7px;
+          margin-left: 20px;
+    }
+
+    #toggle span:after,
+    #toggle span:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: -9px;
+    }
+    #toggle span:after{
+          top: 9px;
+    }
+    #toggle span {
+          position: relative;
+          display: block;
+    }
+
+    #toggle span,
+    #toggle span:after,
+    #toggle span:before {
+          width: 100%;
+          height: 5px;
+          background-color: #888;
+          transition: all 0.3s;
+          backface-visibility: hidden;
+          border-radius: 2px;
+    }
+    #toggle.on span {
+          background-color: transparent;
+    }  
+    #toggle.on span:before {
+          transform: rotate(45deg) translate(5px, 5px);
+    }
+    #toggle.on span:after {
+          transform: rotate(-45deg) translate(7px, -8px);
+    }
+    #toggle.on + #menu {
+          opacity: 1;
+          visibility: visible;
+
+    }
+    .menu_bar #menu {
+          margin-top: -500px;
+          color: #999;
+          margin: auto;
+          text-align: center;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity .4s;
+    }
+    ul, li, li a {
+        margin-left: 20px;
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    li a {
+        padding: 5px;
+        color: #fff;
+        text-decoration: none;
+        transition: all .2s;
+    }
+    li a:hover,
+    li a:focus {
+        color: #753d9d;
+    }
+    .menu_bar{
+        position: absolute;
+        margin-top: -120px;
+    }
+    #slide_part .logo img{
+        margin-top: -248px;
+        margin-left: 74px;
+    }
+    .carousel-indicators{
+        margin-left: -115px;
+    }
+    #slide_part .carousel-indicators li{
+        height: 6px;
+        width: 10px;
+    }
+    .menu_bar #menu {
+          margin-top: -100px;
+          color: #999;
+          margin: auto;
+          text-align: center;
+          opacity: 0;
+          visibility: hidden;
+    }
+    #menu ul{
+          margin-left: 26px;
+          margin-top: -49px;
+    }
+    .menu_bar #menu ul li{
+          float: left;
+    }
+    .container .logo img{
+        margin-top: 30px;
+        height: 30px;
+        width: 100px;
+    }
+/*------------------------Medium device menu part ends--------------------------*/
+   #welcome{
+        height: 650px;
+        text-align: left;
+        border-bottom: none;
+    }
+    #welcome .bloom h2{
+        color: #0d113d;
+        font-size: 26px;
+        padding-top: 10px;
+    }
+    #welcome .bloom h2:before{
+        height: 65px;
+        width: 5px;
+        margin-left: -14px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+    #welcome .bloom span{
+        font-size: 26px;
+    }
+    #welcome .bloom h3{
+        font-size: 16px;
+    }
+    #welcome .bloom p{
+        font-size: 13px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #welcome .bloom a{
+        padding: 16px 36px 12px 36px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        margin-left: 62px;
+    }
+    #welcome img{
+        padding-top: 50px;
+    }
+    /*------------------------welcome part ends-------------------------------*/ 
+    #three_steps img{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 60px;
+    }
+    #three_steps h3{
+        font-size: 18px;
+        margin-top: -65px;
+        margin-left: 130px;
+    }
+    #three_steps p{
+        font-family: montserrat_regular;
+        font-weight: 300px;
+        color: #0d113d;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+    /*------------------------three_steps part ends-------------------------------*/
+     #digital_products h2{
+        font-size: 30px;
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    /*------------------------digital_products part ends-------------------------------*/
+    #service_part p{
+        font-family: montserrat_regular;
+        color: #0d113d;
+        font-size: 20px;
+    }
+    #service_part .picture:hover .overly{
+        background: #0d113d;
+        top: 0px;
+        width: 90%;
+        height: 100%;
+    }
+    #service_part .picture_big:hover .overly{
+        background: #0d113d;
+        top: 0px;
+        width: 90%;
+        height: 100%;
+    }
+    #service_part h4{
+        left: 20px;
+        font-size: 13px;
+    }
+    #service_part h5{
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+    #service_part h5:after{
+        width: 102px;
+        margin-left: -100px;
+    }
+/*------------------------service part ends-------------------------------*/
+     #support_system img{
+        margin-left: 10px;
+        padding-top: 15px;
+        border-bottom: 2px solid #0d113d;
+    }
+    #support_system .system_text h2{
+        font-size: 20px;
+        font-family: montserrat_regular;
+        font-weight: 600;
+        color: #0d113d;
+        padding: 10px 0px 10px;
+    }
+    #support_system .system_text p{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    #support_system .system_text ul li i{
+        color: #616161;
+        margin-left: -25px;
+    }
+    #support_system .system_text ul li span{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    #support_system .system_text ul li{
+        padding: 7px 0px;
+    }
+/*------------------------support_system part ends-------------------------------*/
+  #dream_project .contact_text h2{
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+    #dream_project a{
+        font-size: 13px;
+        margin-left: 50px;
+        line-height: 60px;
+        padding: 12px 40px 12px 40px;
+    }
+/*------------------------dream_project part ends-------------------------------*/
+    .portfolio_text h3{
+        padding: 40px 0 86px;
+        font-size: 24px;
+    }
+    #portfolio_part{
+        padding: 10px 0px;
+        position: relative;
+    }
+    #portfolio .slick-prev{
+        background: url(../images/rightdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 240px;
+    }
+    #portfolio .slick-next{
+        background: url(../images/leftdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -159px;
+        margin-left: 10px;
+    }
+/*------------------------portfolio part ends-------------------------------*/
+    #blog h3{
+        font-size: 25px;
+        margin-left: 14px;
+        padding: 59px 0px 40px;
+    }
+    #blog ul  li{
+        font-size: 8px;
+        font-family: montserrat_regular;
+        font-weight: 600;
+        color: #753d9d;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    #blog ul li a{
+        font-size: 8px;
+    }
+    #blog .date li a{
+        margin-top: 0px;
+        font-size: 8px;
+    }
+    #blog .blog_name li a{
+        font-size: 4px;
+        margin-top: 5px;
+    }
+    #blog .blog_name li a span{
+        font-size: 10px;
+    }
+    #blog .container .row .border_last{
+        width: 300px;
+    }
+    #blog .container .row .border_last2{
+        width: 300px;
+    }
+    #blog .container .row .border_last3{
+        width: 300px;
+    }
+/*------------------------blog part ends-------------------------------*/
+     #register h3{
+        font-size: 15px;
+        padding-top: 11px;
+        text-align: center;
+    }
+    #register p{
+        font-size: 12px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #register .mail{
+        height: 43px;
+        width: 280px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #register .button_subscribe{
+        font-size: 12px;
+        margin-left: 70px;
+        border-radius: 10px;
+        padding: 10px 35px;
+        margin-bottom: 20px;
+    }
+/*------------------------register part ends-------------------------------*/
+    #footer img{
+        margin-left: 60px;
+        padding: 43px 0px 20px;
+    }
+    #footer p{
+        font-size: 10px;
+        padding-bottom: 4px;
+        text-align: justify;
+    }
+    #footer  ul{
+        margin-top: 20px;
+    }
+    #footer ul li{
+        padding-bottom: 10px;
+        margin-left: -25px;
+    }
+    #footer ul li a{
+        font-size: 8px;
+    }
+    #footer .right{
+        margin-left: 100px;
+        margin-top: -140px;
+    }
+    #footer .border{
+        height: 110px;
+        width: 1px;
+        margin-top: -138px;
+        margin-left: 100px;
+    }
+    #footer .border2{
+        height: 110px;
+        width: 1px;
+        margin-top: 18px;
+        margin-left: 95px;
+    }
+/*------------------------footer part ends-------------------------------*/
+     #copyright h5{
+        font-size: 15px;
+        line-height: 90px;
+         text-align: center;
+    }
+    #copyright .fan_page ul{
+        float: left;
+    }
+    #copyright .fan_page ul li{
+        float: left; 
+    }
+    #copyright .fan_page ul li i{
+        color: #fff;
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 0px;
+    }
+/*------------------------copyright part ends-------------------------------*/
+/*---------------------------------------About us part Start----------------------------------------------*/
+    #bloom .Interactive h3{
+        margin-top: 52px;
+        font-size: 15px;
+    }
+    #bloom .bloom_text h2{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #bloom .bloom_text p{
+        font-size: 10px;
+        padding-top: 25px;
+    }
+    #bloom .award{
+        border-radius: 10px;
+        margin-top: 28px;
+        height: 260px;
+        width: 290px;
+    }
+    #bloom .award img{
+        margin-left: 90px;
+    }
+    #bloom .award h3{
+        font-size: 17px;
+    }
+/*---------------------------------------Bloom part ends----------------------------------------------*/
+    .team_man h3{
+        font-size: 26px;
+        text-transform: uppercase;
+        padding-bottom: 100px;
+        margin-left: 15px;
+    }
+    .team_man h3:before{
+        content: '';
+        position: absolute;
+        margin-left: -5px;
+    }
+    #team_about_us{
+        position: relative;
+    }
+    #team_about_us .slick-prev{
+        background: url(../images/rightdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 250px;
+    }
+    #team_about_us .slick-next{
+        background: url(../images/leftdirection.png);
+        background-repeat: no-repeat; 
+        color:rgba(117, 61, 157,0);
+        border: none;
+        position: absolute;
+        margin-top: -363px;
+        margin-left: 16px;
+    }
+    #team_about_us h4{
+        padding: 22px 0px 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+    #team_about_us p{
+        text-align: center;
+        font-size: 10px;
+        color: #753d9d;
+        padding-bottom: 30px;
+    }
+/*------------------------team_about-us part ends--------------------------*/
+     #join_team{
+        background: url(../images/join_team.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        height: 250px;
+    }
+    #join_team h2{
+        font-family: montserrat_regular;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        padding: 60px 0px 60px;
+    }
+    #join_team a{
+        padding: 20px 50px;
+        text-transform: uppercase;
+        font-family: montserrat_regular;
+        font-size: 12px;  
+        border-radius: 10px;
+    }
+    #join_team a:hover{
+        background: #fff;
+        color: #753d9d; 
+        transition: all linear .4s;
+    }
+/*------------------------join_team part ends--------------------------*/
+     #join_team_text p{
+        font-size: 12px;
+        padding: 40px 0px 40px;
+         text-align: justify;
+    }
+/*------------------------join_team_text about-us part ends--------------------------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
